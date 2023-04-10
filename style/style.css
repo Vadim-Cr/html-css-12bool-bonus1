@@ -1,0 +1,86 @@
+
+
+
+.row{
+    display: flex;
+}
+
+/* Alignment */
+.row.start{
+    justify-content: start;
+}
+.row.center{
+    justify-content: center;
+}
+.row.end{
+    justify-content: end;
+}
+
+.big{
+    height: 75px;
+}
+
+.small{
+    height: 50%;
+}
+
+.row.two{
+    align-items: center;
+}
+
+.row.three{
+    align-items: flex-end;
+}
+
+
+/* ----------------------------------------------------------- */
+/* Justify Content */
+.row.sa{
+    justify-content: space-around;
+}
+
+.row.sb{
+    justify-content: space-between;
+}
+/* ----------------------------------------------------------- */
+
+
+/* ! DEBUG */
+/* ! --------------------------------------------------------- */
+/* HEADER */
+
+header{
+    background-color: cornflowerblue;
+    height: 10rem;
+}
+
+/* MAIN */
+
+/* main{
+    background-color: darkseagreen;
+    height: 10rem;
+} */
+
+[class*="col"]{
+    min-height: 50px;
+    background-color: purple;
+    border: solid 2px gold;
+    padding: 0.4rem;
+}
+
+.gold{
+    background-color: gold;
+    border: solid 2px purple;
+    height: 80%;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: cornflowerblue;
+    height: 10rem;
+}
+
+
+/* ! --------------------------------------------------------- */
